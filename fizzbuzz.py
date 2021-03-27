@@ -1,5 +1,4 @@
 """Function to solve the fizzbuzz problem."""
-
 def fizz_buzz(num: int) -> str:
     """
     This is my great and neat function to solve the famous 
