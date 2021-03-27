@@ -1,0 +1,15 @@
+1. Set rules for branch, i.e can't psh to main directly
+2. Settings -> Branches -> Branch Protection rules
+    Require status checks to pass before merging
+    Require branches to be up to date before merging
+    Include Administrators
+3. Add ci.yml in .github/workflows
+4. Add that build to the rules section and commit
+5. Push everyting to new branch
+6. Add "clean" Fizzbuzz code
+7. Add Pre-commit hooks - .pre-commit-config.yaml
+8. Add tests
+ - Check locally just to be sure
+9. Finally push and all checks should pass
+
+-- https://olegpolivin.medium.com/a-practical-guide-for-better-looking-python-code-5a032508bb20
