@@ -10,7 +10,7 @@ inputs = [3, 5, 15, 4, 10, 115, 7]
 outputs = ["fizz", "buzz", "fizzbuzz", "4", "buzz", "buzz", "7"]
 
 
-@pytest.mark.paramterize("inp,out", zip(inputs, outputs))
+@pytest.mark.parametrize("inp,out", zip(inputs, outputs))
 def test_fizzbuzz(inp, out):
     """
     Takes inputs, gets the output o fthe fizzbuzz function.
